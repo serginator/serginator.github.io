@@ -1,0 +1,160 @@
+@font-face { font-family: Delicious; src: url('Fonts/Delicious-Roman.otf'); }
+@font-face { font-family: Delicious; font-weight: bold; src: url('Fonts/Delicious-Bold.otf'); }
+@font-face { font-family: Atari; src: url('Fonts/ATARCS__.TTF'); }
+
+body {
+    font-family: Delicious, sans-serif, Verdana;
+    font-size: 9px;
+    text-shadow: 0 1px 0px rgba(205, 205, 205, 0.5);
+    min-width: 657px;
+    min-height: 700px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    background: url(../images/background.png) no-repeat top left;
+    width: 657px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.homeGames {
+    font-family: Atari, Delicious, sans-serif, Verdana;
+}
+
+.arkanoid {
+    position: absolute;
+    margin-top: 71px;
+    margin-left: 410px;
+    background: url(../images/arkanoid.png) no-repeat top left;
+}
+
+.arkanoid a {
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+
+.arkanoid div {
+    display: none;
+}
+
+.arkanoid:hover div {
+    display: block;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background: url(../images/info.png) no-repeat top left;
+    width: 200px;
+    height: 500px;
+    margin-left: 153px;
+    margin-top: -534px;
+}
+
+.spaceInvaders {
+    position: absolute;
+    margin-top: 34px;
+    margin-left: 446px;
+    background: url(../images/invaders.png) no-repeat top left;
+}
+
+.spaceInvaders a {
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+
+.spaceInvaders div {
+    display: none;
+}
+
+.spaceInvaders:hover div {
+    display: block;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background: url(../images/info.png) no-repeat top left;
+    width: 200px;
+    height: 500px;
+    margin-left: 117px;
+    margin-top: -497px;
+}
+
+.test {
+    position: absolute;
+    margin-top: 43px;
+    margin-left: 500px;
+    background: url(../images/test.png) no-repeat top left;
+}
+
+.test a {
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+
+.test div {
+    display: none;
+}
+
+.test:hover div {
+    display: block;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background: url(../images/info.png) no-repeat top left;
+    width: 200px;
+    height: 500px;
+    margin-left: 63px;
+    margin-top: -506px;
+}
+
+a.twitter {
+    width: 50px;
+    height: 8px;
+    position: absolute;
+    margin-top: 53px;
+    margin-left: 320px;
+}
+
+a.youtube {
+    width: 33px;
+    height: 8px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 276px;
+}
+
+a.deviantArt {
+    width: 42px;
+    height: 8px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 311px;
+}
+
+a.facebook {
+    width: 34px;
+    height: 8px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 355px;
+}
+
+a.home {
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    margin-top: -1px;
+    margin-left: 170px;
+    background: url(../images/home.png) no-repeat top left;
+}
+
+canvas {
+    position: static;
+    width: 453px;
+    height: 351px;
+    margin-left: 105px;
+    margin-top: 157px;
+}

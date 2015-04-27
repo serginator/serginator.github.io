@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS tests by serginator</title>
+        <meta charset="UTF-8"/>
+        <meta name="description" content="JavaScript test lab with some games (Arkanoid, Space Invaders, Snake) 
+		using the latest technologies avaliable (HTML5, CSS3, JavaScript, jQuery...)."/>
+        <meta name="google-site-verification" content="sU9qsZE3SwhCv9AMMFOR03z-kJme3wk2SZUOpDhWSFg" />
+        <link type="text/plain" rel="author" href="humans.txt"/>
+        <link href="style/style2.css" rel="stylesheet" type="text/css">
+    </head>
+	
+    <body>
+        <div class="content">
+            <div class="game">
+                <canvas id ="canvas" width="450" height="350">
+                        Your browser doesn't work well with HTML5. 
+                        Better use Firefox or Chrome.
+                </canvas>
+            </div>
+            
+            <div class="homeGames">
+                <a class="home" href=""></a>
+                
+                <div class="arkanoid">
+                    <a href="arkanoid/"></a>
+                    <div>
+                        <br><br>
+                        <h1>Arkanoid 0.9<br>(WIP)</h1>
+                        <br>
+                        <p>Working on:</p><br>
+                         .Better graphics<br>
+                         .PowerUps<br>
+                    </div>
+                </div>
+                
+                <div class="spaceInvaders">
+                    <a href="spaceInvaders/"></a>
+                    <div>
+                        <br><br>
+                        <h1>Space Invaders 0.9<br>(WIP)<br>17-03-2011 02:00</h1>
+                        <br>
+                        <p>Working on:</p><br>
+                         .Bricks<br>
+                         .Better graphics<br>
+                         .Explosions<br>
+                         .Sound<br>
+                         .Optimization<br>
+                    </div>
+                </div>
+                
+                <div class="test">
+                    <a href="snake/"></a>
+                    <div>
+                        <br><br>
+                        <h1>Snake<br>1.1<br>01-05-2011 01:32</h1>
+                        <br>
+                        <p>Working on:</p><br>
+                         .<del>Insane speed</del><br>
+                         .<del>Continues</del><br>
+                         .<del>Accurate Keys</del><br>
+						 .<del>Show score</del><br>
+						 .<del>Show lives</del><br>
+						 .<del>Buffering</del><br>
+						 .Refactoring:<br>
+						 ---<del>setScore</del><br>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="contact">
+                <a class="twitter" href="http://www.twitter.com/SeRGiNaToR"></a>
+                <a class="youtube" href="http://www.youtube.com/SeRGiNaToR"></a>
+                <a class="deviantArt" href="http://serginator.deviantart.com"></a>
+                <a class="facebook" href="http://www.facebook.com/SeRGiNaToR"></a>
+				<a class="linkedin-profileinsider-popup" href="http://www.linkedin.com/in/serginator"></a>
+            </div>
+        </div>
+		
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-23283322-3']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+
+        </script>		
+		
+        <script type="text/javascript" src="http://www.linkedin.com/js/public-profile/widget-os.js"></script>
+
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+		
+        <script type="text/javascript">
+            <!--
+            $(document).ready(function(){
+                $('.arkanoid a').click(function(event){
+                    $('canvas').remove();
+                    $('.game').prepend('<canvas id="canvas">');
+                    $('game script').remove();
+                    $('canvas').attr({width: '450', height: '350'});
+                    $('.game').append('<script type="text/javascript" defer="defer" src="arkanoid/arkanoid.js"></script>');
+                    event.preventDefault();
+                });
+                $('.spaceInvaders a').click(function(event){
+                    $('canvas').remove();
+                    $('.game').prepend('<canvas id="canvas">');
+                    $('game script').remove();
+                    $('canvas').attr({width: '650', height: '500'});
+                    $('.game').append('<script type="text/javascript" defer="defer" src="spaceInvaders/spaceInvaders.js"></script>');
+                    event.preventDefault();
+                });
+                $('.test a').click(function(event){
+                    $('canvas').remove();
+                    $('.game').prepend('<canvas id="canvas">');
+                    $('game script').remove();
+                    $('canvas').attr({width: '450', height: '350'});
+                    $('.game').append('<script type="text/javascript" defer="defer" src="snake/snake.js"></script>');
+                    event.preventDefault();
+                });
+            });
+            //-->
+		</script>
+        <div class="google">
+            <script type="text/javascript"><!--
+                google_ad_client = "ca-pub-8959854100514991";
+                /* Anuncio Horizontal */
+                google_ad_slot = "2917735234";
+                google_ad_width = 468;
+                google_ad_height = 60;
+                //-->
+                </script>
+                <script type="text/javascript"
+                src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+            </script>
+        </div>
+    </body>
+	
+</html>

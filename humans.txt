@@ -1,0 +1,45 @@
+  _______  ______ _______  ___    ______ _______  ______
+ |__   __|/ ____/|__   __|| __|  / ____/|__   __|/ ____/
+  __| |   |____ |   | |   | ___| |____ |   | |   |____ |
+ |___/    /_____/   |_|   |_____|/_____/   |_|   /_____/
+
+/* MAIN */
+  Develop & Main Design: Sergio Ruiz
+  Twitter: @SeRGiNaToR
+  Contact: serginator [at] gmail.com
+  Site: http://www.serginator.com
+  From: Madrid, Spain
+
+/* SITE */
+  Last update: 29/04/2011
+  Language: English
+  Doctype: HTML5
+  IDE: Notepad++, gedit, Photoshop
+
+/* THANKS */
+  Designer: Francisco Tapia
+  Twitter: @Fran_T
+  Helped with: Skin of the arcade machine
+
+  Designer: Carlos Benitez
+  Twitter: @etnassoft
+  Site: http://www.etnassoft.com
+  Helped with: Sources to learn, fixing things,
+               understanding prototypes, closures,
+               hoisting...
+  
+  Designer: Egor Balishev
+  Twitter: @furagu
+  Helped with: concepts in space invaders and ideas
+               from his RGB Invaders
+			   
+  Developer: Javier Cadenas
+  Site: http://www.aventuraycia.com
+  Helped with: Server and some jQuery problems.
+			   
+/* SPECIAL THANKS */
+  Special thanks to my girlfriend, who played my
+  games and served me as betatester and also with
+  some good ideas, and thanks to my friends on 
+  facebook and twitter who helped me testing the 
+  games too.

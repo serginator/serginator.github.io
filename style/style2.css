@@ -1,0 +1,197 @@
+@font-face { font-family: Delicious; src: url('fonts/delicious-roman.otf'); }
+@font-face { font-family: Delicious; font-weight: bold; src: url('fonts/delicious-bold.otf'); }
+@font-face { font-family: Atari; src: url('fonts/atarcs__.ttf'); }
+
+html{
+    background: url("space_invaders_wallpaper_by_mary_chan.jpg") no-repeat;
+    background-size: 100%;
+}
+
+body {
+    font-family: Delicious, sans-serif, Verdana;
+    font-size: 9px;
+    text-shadow: 0 1px 0px rgba(205, 205, 205, 0.5);
+    color: #FFF;
+    min-width: 657px;
+    min-height: 700px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+	font-size: 15px;
+}
+
+.content {
+    background: url(../images/background2.gif) no-repeat top left;
+    width: 657px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.homeGames {
+    font-family: Atari, Delicious, sans-serif, Verdana;
+}
+
+.arkanoid {
+    position: absolute;
+    margin-top: 27px;
+    margin-left: 392px;
+    width: 40px;
+    height: 40px;
+}
+
+.arkanoid a {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+.arkanoid div {
+    opacity: 0;
+	border-radius: 10px;
+    margin-left: 208px;
+    margin-top: -409px;
+	width: 150px;
+    height: 300px;
+    padding: 10px;
+
+    -webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+
+.arkanoid:hover div {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.spaceInvaders {
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 445px;
+    width: 40px;
+    height: 40px;
+}
+
+.spaceInvaders a {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+.spaceInvaders div {
+    opacity: 0;
+	border-radius: 10px;
+    margin-left: 155px;
+    margin-top: -395px;
+    width: 150px;
+    height: 300px;
+    padding: 10px;
+
+    -webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+
+.spaceInvaders:hover div {
+	opacity: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.test {
+    position: absolute;
+    margin-top: -2px;
+    margin-left: 497px;
+    width: 40px;
+    height: 40px;
+}
+
+.test a {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+.test div {
+    opacity: 0;
+	border-radius: 10px;
+    margin-left: 103px;
+    margin-top: -381px;
+    width: 150px;
+    height: 300px;
+    padding: 10px;
+
+    -webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+
+.test:hover div {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.google {
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+a.twitter {
+    width: 50px;
+    height: 8px;
+    position: absolute;
+    margin-top: 66px;
+    margin-left: 284px;
+}
+
+a.linkedin-profileinsider-popup {
+    position: absolute;
+	margin-top: 59px;
+	margin-left: 316px;
+width: 16px;: height: 16px;: height: 16px;: height: 16;: height:;: height:;: height;: height;: heigh;: heig;: he;:;: e;:;:;:; height: 16px;}
+
+a.youtube {
+    width: 33px;
+    height: 8px;
+    position: absolute;
+    margin-top: 81px;
+    margin-left: 233px;
+}
+
+a.deviantArt {
+    width: 42px;
+    height: 8px;
+    position: absolute;
+    margin-top: 81px;
+    margin-left: 269px;
+}
+
+a.facebook {
+    width: 34px;
+    height: 8px;
+    position: absolute;
+    margin-top: 81px;
+    margin-left: 316px;
+}
+
+a.home {
+    width: 41px;
+    height: 78px;
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 128px;
+}
+
+canvas {
+    position: static;
+    width: 460px;
+    height: 358px;
+    margin-left: 102px;
+    margin-top: 153px;
+	background: black;
+}

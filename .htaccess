@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /
+
+#Unificación de dominio
+RewriteCond %{HTTP_HOST} ^serginator\.com$ [NC]
+RewriteRule ^(.*)$ http://www.serginator.com/$1 [R=301,L]
